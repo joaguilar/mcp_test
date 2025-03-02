@@ -1,0 +1,21 @@
+[project]
+name = "mcp_research_agent"
+version = "0.1.0"
+description = "MCP-based multi-server agent demo using OpenAI + Brave Search"
+authors = [
+  { name="Your Name", email="[email protected]" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["MCP", "AI", "LLM", "OpenAI", "Streamlit", "Anthropic"]
+dependencies = [
+  "modelcontextprotocol>=0.1.0",
+  "requests>=2.25.0",
+  "streamlit>=1.18.0",
+  "openai>=0.27.0",
+  "python-dotenv>=1.0.1",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
